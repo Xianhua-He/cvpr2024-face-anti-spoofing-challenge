@@ -1,0 +1,9 @@
+torch
+albumentations
+numpy
+opencv-python
+elasticdeform==0.5.0
+tqdm
+joblib
+scikit-image
+insightface

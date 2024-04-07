@@ -1,0 +1,23 @@
+python -m torch.distributed.run --nproc_per_node=1 --master_port=12353 \
+  train_dist.py \
+  --protocol 'p1' \
+  --live_weight 1.0 \
+  --train_root 'xxx/cvpr2024/data' \
+  --train_list 'xxx/cvpr2024/data/p1/train_dev_label.txt' \
+  --val_root   'xxx/cvpr2024/data' \
+  --val_list   'xxx/cvpr2024/data/p1/dev_label.txt' \
+  --cos \
+  --syncbn \
+  --arch resnet50 \
+  --num_classes 2 \
+  --input_size 224 \
+  --batch_size 512 \
+  --workers 12 \
+  --optimizer AdamW \
+  --learning_rate 0.001 \
+  --weight_decay 0.0005 \
+  --epochs 200 \
+  --print_freq 20 \
+  --save_freq 40 \
+  --pretrain 'xxx/pretrain/resnet50-19c8e357.pth' \
+  --saved_model_dir 'xxx/cvpr2024/submit/exp_p1'

@@ -1,0 +1,14 @@
+*.pth.tar
+*.pyc
+__pycache__/*
+cv2_transform/__pycache__/*
+pretrained/*
+checkpoints/*
+nohup.*
+runs/*
+logs/*
+.hopemeta
+driver.hope*
+.DS_Store
+*.pkl
+.idea
