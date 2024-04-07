@@ -32,9 +32,9 @@ python data_preprocess/merge_dev_train_data.py # please modify the base path
 # p2.2: only merge dev live data to train
 ```
 3. final data format:
-<br>
-base_path = "xxx/cvpr2024"
 ```bash
+base_path = "xxx/cvpr2024"
+
 |----cvpr2024/data
   |----p1
     |----train
@@ -93,10 +93,10 @@ bash generate_mask.sh
 download pretrain model: [resnet50](https://download.pytorch.org/models/resnet50-19c8e357.pth)
 
 ## Training resources
-Please use 1*A100(80G) for training, only modify the dataset base path, do not modify other parameters in training.<br>
-We fixed the random seed to ensure reproducible results. Modifying other training parameters will cause fluctuations in the final results.<br>
-Training only takes 1 hour for each protocol. <br>
-Inference only takes 1 minute for each protocol.
+- Please use 1*A100(80G) for training, only modify the dataset base path, do not modify other parameters in training.
+- We fixed the random seed to ensure reproducible results. Modifying other training parameters will cause fluctuations in the final results.
+- Training only takes 1 hour for each protocol. 
+- Inference only takes 1 minute for each protocol.
 
 ## 🚀  P1 Train and Test
 Train p1 protocol:
