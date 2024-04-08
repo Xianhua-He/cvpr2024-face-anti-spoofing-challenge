@@ -5,11 +5,11 @@ The overview pipeline of our method. We propose Simulated Physical Spoofing Clue
 <img src="readme_images/pipeline.png" alt="image" style="zoom:20%;" />
 
 
-1. using ColorJitter to simulate the spoofing clues of print attacks
-2. using moire pattern augmentation to simulate the spoofing clues of replay attacks
+1. employ ColorJitter to simulate the spoofing clues of print attacks
+2. use moire pattern augmentation to simulate the spoofing clues of replay attacks
 3. SPSC consists of ColorJitter and moire pattern augmentation
-4. using SPSC to simulate the spoofing clues of digital forgery
-5. using GaussNoise or based gradient noise to simulate the spoofing clues of adversarial attacks, but do not work
+4. introduce SPSC to simulate the spoofing clues of digital forgery
+5. attempt to use GaussNoise or gradient-based noise to simulate the spoofing clues of adversarial attacks, but do not work
 
 # 🏃‍♂️ Getting Started
 
