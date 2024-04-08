@@ -101,29 +101,29 @@ download pretrain model: [resnet50](https://download.pytorch.org/models/resnet50
 ## 🚀  P1 Train and Test
 Train p1 protocol:
 ```bash
-bash train_p1.sh
+bash scripts/train_p1.sh
 ```
 Test: select the 200th epoch model weight
 ```bash
-bash test_p1.sh
+bash scripts/test_p1.sh
 ```
 ## 🚀  P2.1 Train and Test
 Train p2.1 protocol:
 ```bash
-bash train_p21.sh
+bash scripts/train_p21.sh
 ```
 Test: select the 200th epoch model weight
 ```bash
-bash test_p21.sh
+bash scripts/test_p21.sh
 ```
 
 ## 🚀  P2.2 Train and Test
 Train p2.2 protocol:
 ```bash
-bash train_p22.sh
+bash scripts/train_p22.sh
 ```
 Test: select the 200th epoch model weight
 ```bash
-bash test_p22.sh
+bash scripts/test_p22.sh
 ```
 
