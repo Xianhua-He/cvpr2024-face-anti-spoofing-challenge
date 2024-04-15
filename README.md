@@ -1,5 +1,5 @@
 # Joint Physical-Digital Facial Attack Detection Via Simulating Spoofing Clues [CVPR2024 Workshop]
-This repository is the official implementation of [Joint Physical-Digital Facial Attack Detection Via Simulating Spoofing Clues](https://arxiv.org/)
+This repository is the official implementation of [Joint Physical-Digital Facial Attack Detection Via Simulating Spoofing Clues](http://arxiv.org/abs/2404.08450)
 # 🤗 Overview our method
 The overview pipeline of our method. We propose Simulated Physical Spoofing Clues augmentation (SPSC), which augments live samples into simulated physical attack samples for training within protocols 1 and 2.1. Concurrently, we present Simulated Digital Spoofing Clues augmentation (SDSC), converting live samples into simulated digital attack samples, tailored for training under protocols 1 and 2.2.
 <img src="readme_images/pipeline.png" alt="image" style="zoom:20%;" />
