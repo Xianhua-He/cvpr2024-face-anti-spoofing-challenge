@@ -127,3 +127,13 @@ Test: select the 200th epoch model weight
 bash scripts/test_p22.sh
 ```
 
+## 🏆 Our models
+
+Protocol|APCER(%)|BPCER(%)|ACER(%)|model
+:---:|:---:|:---:|:---:|:---:
+P1|0.31|0.09|0.20|[p1_resnet50.pth](https://drive.google.com/file/d/1gNUMzaK87CcQlM_aCr7TjU3iLx_2NiBp/view?usp=drive_link)
+P2.1|2.55|0.09|1.32|[p21_resnet50.pth](https://drive.google.com/file/d/1pTxdI2uZj1yBSCN64vKs-cQddIZN6rvO/view?usp=drive_link)
+P2.2|1.73|1.58|1.65|[p22_resnet50.pth](https://drive.google.com/file/d/1GTAoTmyCbYGws5BV07qUL-iGVvHx_LmF/view?usp=sharing)
+
+
+

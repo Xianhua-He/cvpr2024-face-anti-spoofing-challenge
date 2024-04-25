@@ -8,5 +8,5 @@ python -m torch.distributed.run --nproc_per_node=1 --master_port=12353 \
   --input_size 224 \
   --batch_size 1024 \
   --workers 8 \
-  --resume 'xxx/cvpr2024/submit/exp_p22/resnet50_epoch199_acc1_99.9762.pth' \
+  --resume 'xxx/cvpr2024/submit/exp_p22/p22_resnet50_epoch199.pth' \
   --score_list 'xxx/cvpr2024/submit/result/exp_p22/exp_p22.txt'
