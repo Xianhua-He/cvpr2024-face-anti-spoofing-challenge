@@ -136,4 +136,13 @@ P2.1|2.55|0.09|1.32|[p21_resnet50.pth](https://drive.google.com/file/d/1pTxdI2uZ
 P2.2|1.73|1.58|1.65|[p22_resnet50.pth](https://drive.google.com/file/d/1GTAoTmyCbYGws5BV07qUL-iGVvHx_LmF/view?usp=sharing)
 
 
-
+## 🎓 Citation
+If you find this repository useful for your research, please use the following entry.
+```BibTeX
+@article{he2024joint,
+  title={Joint Physical-Digital Facial Attack Detection Via Simulating Spoofing Clues},
+  author={He, Xianhua and Liang, Dashuang and Yang, Song and Hao, Zhanlong and Ma, Hui and Mao, Binjie and Li, Xi and Wang, Yao and Yan, Pengfei and Liu, Ajian},
+  journal={arXiv preprint arXiv:2404.08450},
+  year={2024}
+}
+```
