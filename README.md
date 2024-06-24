@@ -139,10 +139,11 @@ P2.2|1.73|1.58|1.65|[p22_resnet50.pth](https://drive.google.com/file/d/1GTAoTmyC
 ## 🎓 Citation
 If you find this repository useful for your research, please use the following entry.
 ```BibTeX
-@article{he2024joint,
+@inproceedings{he2024joint,
   title={Joint Physical-Digital Facial Attack Detection Via Simulating Spoofing Clues},
   author={He, Xianhua and Liang, Dashuang and Yang, Song and Hao, Zhanlong and Ma, Hui and Mao, Binjie and Li, Xi and Wang, Yao and Yan, Pengfei and Liu, Ajian},
-  journal={arXiv preprint arXiv:2404.08450},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={995--1004},
   year={2024}
 }
 ```
