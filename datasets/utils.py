@@ -5,6 +5,7 @@ import torch
 from datasets.CvprDataset_P1 import CvprDataset_P1
 from datasets.CvprDataset_P21 import CvprDataset_P21
 from datasets.CvprDataset_P22 import CvprDataset_P22
+from datasets.ImageListDataset import ImageListDataset
 from cv2_transform import transforms
 import albumentations as A
 from albumentations.pytorch import ToTensorV2
@@ -35,6 +36,15 @@ def get_dataset(data_root, data_list, args, transforms1, transforms2, is_train, 
             transforms2 = transforms2,
             is_train = is_train,
             return_path = return_path)
+    else:
+        _dataset = ImageListDataset(
+            basedir = data_root,
+            data_list = data_list,
+            transforms1 = transforms1,
+            transforms2 = transforms2,
+            is_train = is_train,
+            return_path = return_path)
+        
     return _dataset
 
 

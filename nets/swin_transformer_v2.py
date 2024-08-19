@@ -752,8 +752,7 @@ def swin_v2_b(num_classes, fp16):
     embed_dim = 128
     depths = [2, 2, 18, 2]
     num_heads = [4, 8, 16, 32]
-    # window_size = 14
-    window_size = 12
+    window_size = 14
     mlp_ratio = 4.0
     drop_rate = 0.0
     drop_path_rate = 0.1
