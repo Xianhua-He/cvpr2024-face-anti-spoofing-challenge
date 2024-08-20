@@ -127,7 +127,8 @@ Test: select the 200th epoch model weight
 bash scripts/test_p22.sh
 ```
 
-## 🚀  Testing in general scenarios
+## 🚀  Testing in general scenarios 
+**spoof=1, live=0** <br>
 If you want to test data in any scenario, we provide some low-profile models trained on our own datasets. It is recommended to input the full image area for [full_resnet50.pth](https://drive.google.com/file/d/1VpWN8CXdVVLTwyTPABeFXmr3UnnenjYe/view?usp=sharing) and [full_swin_v2_base.pth](https://drive.google.com/file/d/1Ii3JmoRjWcOLF4xNwCqtJyp0Ok0vJva3/view?usp=sharing). Meanwhile, we provide the model [face_swin_v2_base.pth](https://drive.google.com/file/d/1E4UD8UK_KzjhpAvR6hYInlteOEaxDZbZ/view?usp=sharing) model of the face region.:
 
 ```bash
