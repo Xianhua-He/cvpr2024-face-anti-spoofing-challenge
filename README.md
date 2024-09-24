@@ -150,7 +150,9 @@ input|model
 full image|[full_resnet50.pth](https://drive.google.com/file/d/1VpWN8CXdVVLTwyTPABeFXmr3UnnenjYe/view?usp=sharing)
 full image|[full_swin_v2_base.pth](https://drive.google.com/file/d/1Ii3JmoRjWcOLF4xNwCqtJyp0Ok0vJva3/view?usp=sharing)
 face area|[face_swin_v2_base.pth](https://drive.google.com/file/d/1E4UD8UK_KzjhpAvR6hYInlteOEaxDZbZ/view?usp=sharing)
-
+full image|[mobilenet_v3_small.pth](https://drive.google.com/file/d/1UhCrC2VQCz4zE1UFc-lnziivqB3bSIpP/view?usp=sharing)
+full image|[shufflenetv2_1.0x.pth](https://drive.google.com/file/d/18e23EW2ncsnOqET4jCSEskHVNvFYAF1j/view?usp=sharing)
+full image|[shufflenetv2_0.5x.pth](https://drive.google.com/file/d/16VzZSYcVTNErFoLF87urdrzQbGbKvqjX/view?usp=sharing)
 
 ## 🎓 Citation
 If you find this repository useful for your research, please use the following entry.

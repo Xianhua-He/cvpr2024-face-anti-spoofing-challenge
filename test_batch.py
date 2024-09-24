@@ -92,6 +92,7 @@ def main(args):
     model = None
     model_ema = None
     logging.info("=> creating model '{}'".format(args.arch))
+    arch = args.arch
     model = get_model(args.arch, args.num_classes)
 
     model.cuda()
@@ -129,6 +130,8 @@ def main(args):
                 bs, nc, c, h, w = images.size()
                 outputs = model(images.view(-1, c, h, w))
                 outputs = outputs.view(bs, nc, -1).mean(1)
+            elif arch.startswith("mobilenet") or arch.startswith("shufflenet"):
+                outputs = model(images)
             else:
                 _, outputs = model(images)
 

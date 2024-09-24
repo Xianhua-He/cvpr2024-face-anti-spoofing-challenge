@@ -74,7 +74,7 @@ class ShuffleNetV2(nn.Module):
         self.stage_repeats = [4, 8, 4]
         self.model_size = model_size
         if model_size == '0.5x':
-            self.stage_out_channels = [-1, 24, 48, 96, 192, 1024]
+            self.stage_out_channels = [-1, 24, 48, 96, 192, 512]
         elif model_size == '0.75x':
             self.stage_out_channels = [-1, 24, 72, 144, 288, 1024]
         elif model_size == '1.0x':
