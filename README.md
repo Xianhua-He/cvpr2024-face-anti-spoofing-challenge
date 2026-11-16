@@ -3,7 +3,9 @@ This repository is the official implementation of [Joint Physical-Digital Facial
 
 ## 🚀  Testing in general scenarios 
 ***spoof=1, live=0*** <br>
-If you want to test data in any scenario, we provide some low-profile models trained on our own datasets. It is recommended to input the full image area for [full_resnet50.pth](https://drive.google.com/file/d/1VpWN8CXdVVLTwyTPABeFXmr3UnnenjYe/view?usp=sharing) and [full_swin_v2_base.pth](https://drive.google.com/file/d/1Ii3JmoRjWcOLF4xNwCqtJyp0Ok0vJva3/view?usp=sharing). Meanwhile, we provide the model [face_swin_v2_base.pth](https://drive.google.com/file/d/1E4UD8UK_KzjhpAvR6hYInlteOEaxDZbZ/view?usp=sharing) model of the face region.:
+If you want to test data in any scenario, we provide some low-profile models trained on our own datasets. It is recommended to input the full image area for [full_resnet50.pth](https://drive.google.com/file/d/1VpWN8CXdVVLTwyTPABeFXmr3UnnenjYe/view?usp=sharing) and [full_swin_v2_base.pth](https://drive.google.com/file/d/1Ii3JmoRjWcOLF4xNwCqtJyp0Ok0vJva3/view?usp=sharing). Meanwhile, we provide the model [face_swin_v2_base.pth](https://drive.google.com/file/d/1E4UD8UK_KzjhpAvR6hYInlteOEaxDZbZ/view?usp=sharing) model of the face region.
+full_resnet50.pth ：全图模型的含义是直接整张图片直接resize到224x224去推理测试，不需要做人脸crop处理。
+face_swin_v2_base.pth ：人脸区域的模型是需要先做人脸检测，然后resize到256x256，再CenterCrop到224x224去推理测试。
 
 ```bash
 bash scripts/test.sh
